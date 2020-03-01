@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1-0HSyxEEu6hL6vdw6k9XMlULQ53JLJAu/view?usp=sharing'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1-0HSyxEEu6hL6vdw6k9XMlULQ53JLJAu?alt=media&key=AIzaSyC4oR21HqkcYm8F2uBdEQ75cfoSMeDdYAU'
 export_file_name = 'camvid-stage-1.pth'
 
 classes = ['Void', 'Background', 'MastCell']
